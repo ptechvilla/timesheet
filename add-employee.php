@@ -36,7 +36,11 @@ if (isset($_POST["btn"])) {
     }
 
 
+<<<<<<< HEAD
 /** New comment added *git*/
+=======
+
+>>>>>>> 7de9070ae9da8f15180d6f3ba53496805b9029de
 
     $sql = "insert into candidate (fname,lname,email,phone,password,country,state,city,zip,address,landmark,position,dob,doj,highest_qual,skills,image,gender) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
     $stmt = $pdo->prepare($sql);
